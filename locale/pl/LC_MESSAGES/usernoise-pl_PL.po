@@ -1,0 +1,451 @@
+# Copyright (C) 2010 Usernoise
+# This file is distributed under the same license as the Usernoise package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Usernoise 0.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/usernoise\n"
+"POT-Creation-Date: 2011-08-23 15:49:49+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2011-08-24 19:12+0100\n"
+"Last-Translator: Wojciech Sobczak <wsobczak@gmail.com>\n"
+"Language-Team: vbert <wsobczak@gmail.com>\n"
+"X-Poedit-Basepath: /home/www/fitfun/blog/wp-content/plugins/usernoice\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SearchPath-0: /home/www/fitfun/blog/wp-content/plugins/usernoice\n"
+
+#: inc/controller.php:28
+#: html/form-feedback.php:25
+msgid "Short summary"
+msgstr "Krótkie podsumowanie"
+
+#: inc/controller.php:30
+#: html/form-feedback.php:23
+msgid "Your feedback"
+msgstr "Twoja opinia"
+
+#: inc/controller.php:32
+#: html/form-feedback.php:28
+msgid "Your email (will not be published)"
+msgstr "Twój e-mail (nie zostanie opublikowany)"
+
+#: inc/model.php:21
+#: inc/model.php:23
+#: inc/model.php:24
+msgctxt "admin"
+msgid "Feedback"
+msgstr "Opinia"
+
+#: inc/model.php:25
+msgid "Add new"
+msgstr "Dodaj nową"
+
+#: inc/model.php:26
+msgid "Add new feedback"
+msgstr "Dodaj nową opinię"
+
+#: inc/model.php:27
+#: inc/model.php:29
+msgid "View feedback"
+msgstr "Zobacz opinię"
+
+#: inc/model.php:28
+#: admin/dashboard.php:13
+msgid "New feedback"
+msgstr "Nowa opinia"
+
+#: inc/model.php:30
+msgid "Search feedback"
+msgstr "Znajdź opinię"
+
+#: inc/model.php:31
+msgid "Feedback not found"
+msgstr "Opinii nie znaleziono"
+
+#: inc/model.php:32
+msgid "Feedback not found in Trash"
+msgstr "W koszu nie znaleziono opinii"
+
+#. #-#-#-#-#  plugin.pot (Usernoise 0.4)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: inc/model.php:33
+#: admin/menu.php:14
+#: admin/settings.php:18
+#: html/powered-by.php:3
+msgid "Usernoise"
+msgstr "Usernoise"
+
+#: inc/model.php:35
+msgid "Feedback left by users using a form in a lightbox"
+msgstr "Opinie pozostawione przez użytkowników za pomocą formularza w lightbox"
+
+#: inc/model.php:55
+msgid "Please enter a summary."
+msgstr "Proszę wprowadź podsumowanie."
+
+#: inc/model.php:58
+msgid "Please enter the feedback."
+msgstr "Proszę wprowadź opinię."
+
+#: inc/model.php:61
+msgid "Please enter a valid email address."
+msgstr "Proszę wprowadź poprawny adres e-mail."
+
+#: inc/model.php:89
+msgid "feedback"
+msgstr "opinia"
+
+#: inc/model.php:90
+msgid "A new"
+msgstr "Nowa"
+
+#: inc/model.php:91
+msgid "View it:"
+msgstr "Zobacz to:"
+
+#: inc/model.php:95
+msgid "New"
+msgstr "Nowa"
+
+#: inc/model.php:95
+msgid "submitted at"
+msgstr "składane w"
+
+#: inc/template.php:60
+msgid "or"
+msgstr "lub"
+
+#: inc/template.php:93
+#: inc/integration.php:22
+#: html/reply-meta-box.php:5
+msgid "Feedback"
+msgstr "Opinia"
+
+#: inc/template.php:97
+#: usernoise.php:78
+#: usernoise.php:82
+msgid "Submit feedback"
+msgstr "Wyślij opinię"
+
+#: inc/template.php:102
+#: usernoise.php:74
+msgid "Please tell us what do you think, any kind of feedback is highly appreciated."
+msgstr "Proszę nam powiedzieć co myślisz, wszelkiego rodzaju opinie są wysoko cenione."
+
+#: admin/menu.php:16
+#: html/form-feedback.php:8
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: admin/feedback-list.php:32
+msgid "Type"
+msgstr "Typ"
+
+#: admin/feedback-list.php:55
+msgid "All feedback types"
+msgstr "Opinie wszystkich typów"
+
+#: admin/admin-bar.php:15
+msgid "Usernoise %s"
+msgstr "Usernoise %s"
+
+#: admin/settings.php:25
+msgid "Usernoise settings"
+msgstr "Ustawienia Usernoise"
+
+#: admin/settings.php:32
+msgid "Save Changes"
+msgstr "Zapis z zmiany"
+
+#: admin/settings.php:57
+msgid "General"
+msgstr "Ogólne"
+
+#: admin/settings.php:59
+msgid "Show Powered by"
+msgstr "Pokaż Powered by"
+
+#: admin/settings.php:63
+msgid "I like Usernoise and want to show <em>\"Powered by Usernoise\"</em>  link at the modal window."
+msgstr "Lubię Usernoise i chcę pokazać link <em>\"Powered by Usernoise\"</em>  w oknie modalnym."
+
+#: admin/settings.php:66
+msgid "Font"
+msgstr "Czcionka"
+
+#: admin/settings.php:71
+msgid "Site default font"
+msgstr "Domyślnej czcionka strony"
+
+#: admin/settings.php:72
+msgid "Button"
+msgstr "Przycisk"
+
+#: admin/settings.php:73
+msgid "Background color"
+msgstr "Kolor tła"
+
+#: admin/settings.php:77
+msgid "Text"
+msgstr "Tekst"
+
+#: admin/settings.php:81
+msgid "Text color"
+msgstr "Kolor tekstu"
+
+#: admin/settings.php:85
+msgid "Left"
+msgstr "Lewo"
+
+#: admin/settings.php:85
+msgid "Right"
+msgstr "Prawo"
+
+#: admin/settings.php:85
+msgid "Top"
+msgstr "Góra"
+
+#: admin/settings.php:86
+msgid "Bottom"
+msgstr " Dół"
+
+#: admin/settings.php:87
+msgid "Show border"
+msgstr "Wyświetlanie krawędzi"
+
+#: admin/settings.php:91
+msgid "Position"
+msgstr "Położenie"
+
+#: admin/settings.php:96
+msgid "Hide on mobile devices"
+msgstr "Ukryj na urządzeniach przenośnych"
+
+#: admin/settings.php:100
+msgid "Feedback form"
+msgstr "Formularz opinii"
+
+#: admin/settings.php:101
+msgid "Form title"
+msgstr "Tytuł formularza"
+
+#: admin/settings.php:105
+msgid "Introductional text"
+msgstr "Wprowadzenie"
+
+#: admin/settings.php:109
+msgid "Ask for feedback type"
+msgstr "Zapytaj o typ opinii"
+
+#: admin/settings.php:113
+msgid "Ask for a summary"
+msgstr "Zapytaj o podsumowanie"
+
+#: admin/settings.php:117
+msgid "Ask for an email"
+msgstr "Zapytaj o e-mail"
+
+#: admin/settings.php:121
+msgid "Submit button text"
+msgstr " Tekst na przycisku"
+
+#: admin/settings.php:125
+msgid "Thank you screen"
+msgstr "Ekran podziękowania"
+
+#: admin/settings.php:126
+msgid "Thank you screen title"
+msgstr "Tytuł podziękowania"
+
+#: admin/settings.php:130
+msgid "Thank you text"
+msgstr "Treść podziękowania"
+
+#: admin/settings.php:134
+msgid "Admin notifications"
+msgstr "Administracja powiadomieniami"
+
+#: admin/settings.php:135
+msgid "New feedback received"
+msgstr "Odebrano nową opinię"
+
+#: admin/settings.php:143
+msgid "Notification emails will be sent to:"
+msgstr "Powiadomienie e-mail zostanie wysłane do:"
+
+#: admin/settings.php:145
+msgid "you can change it at"
+msgstr "możesz go zmienić w"
+
+#: admin/settings.php:145
+msgid "General Options"
+msgstr "Opcje główne "
+
+#: admin/settings.php:169
+msgid "Select a Color"
+msgstr "Wybierz kolor"
+
+#: admin/dashboard.php:29
+msgid "by"
+msgstr "przez"
+
+#: admin/dashboard.php:37
+msgid "View all feedback"
+msgstr "Wyświetlanie wszystkich opinii"
+
+#: admin/dashboard.php:40
+msgid "No new feedback now."
+msgstr "Brak nowych opinii."
+
+#: admin/editor-page.php:19
+#: html/publish-meta-box.php:72
+msgid "Publish"
+msgstr "Publikuj"
+
+#: admin/editor-page.php:27
+msgid "Reply"
+msgstr "Odpowiedz"
+
+#: admin/editor-page.php:42
+msgid "Hacking, huh?"
+msgstr "Hacking, huh?"
+
+#: admin/editor-page.php:45
+msgid "Please enter some message."
+msgstr "Proszę podać kilka wiadomości."
+
+#: admin/editor-page.php:56
+msgid "Feedback author email is unknown."
+msgstr "E-mail autora opinii nie jest znany."
+
+#: admin/editor-page.php:61
+msgid "Email sent successfully."
+msgstr "E-mail wysłany."
+
+#: admin/editor-page.php:66
+msgid "Feedback was marked as reviewed"
+msgstr "Opinia została oznaczona jako recenzja"
+
+#: admin/editor-page.php:86
+msgid "Author"
+msgstr "Autor"
+
+#: usernoise.php:69
+msgctxt "button"
+msgid "Feedback"
+msgstr "Opinia"
+
+#: usernoise.php:73
+msgctxt "form"
+msgid "Feedback"
+msgstr "Opinia"
+
+#: usernoise.php:79
+msgid "Thank you"
+msgstr "Dziękuję"
+
+#: usernoise.php:80
+msgid "Your feedback have been received."
+msgstr "Twoja opinia została odebrana."
+
+#: usernoise.php:101
+#: html/form-feedback.php:16
+msgid "Idea"
+msgstr "Pomysł"
+
+#: usernoise.php:101
+#: html/form-feedback.php:18
+msgid "Question"
+msgstr " Pytanie"
+
+#: usernoise.php:101
+#: html/form-feedback.php:17
+msgid "Problem"
+msgstr " Problem"
+
+#: usernoise.php:102
+#: html/form-feedback.php:19
+msgid "Praise"
+msgstr "Pochwała"
+
+#: html/reply-meta-box.php:4
+msgid "Subject"
+msgstr " Temat"
+
+#: html/reply-meta-box.php:8
+msgid "Send"
+msgstr " Wyślij"
+
+#: html/publish-meta-box.php:11
+msgid "Status:"
+msgstr " Status:"
+
+#: html/publish-meta-box.php:16
+msgid "Privately Published"
+msgstr "Prywatnie opublikowany"
+
+#: html/publish-meta-box.php:19
+#: html/publish-meta-box.php:73
+msgid "Reviewed"
+msgstr "Recenzja"
+
+#: html/publish-meta-box.php:22
+msgid "Scheduled"
+msgstr " Uruchamia zaplanowane czynności"
+
+#: html/publish-meta-box.php:25
+msgid "Pending Review"
+msgstr "W oczekiwaniu na opinię"
+
+#: html/publish-meta-box.php:29
+msgid "Draft"
+msgstr " Szkic"
+
+#. translators: Publish box date formt, see http:php.net/date
+#: html/publish-meta-box.php:40
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: html/publish-meta-box.php:41
+msgid "Sent on: <b>%1$s</b>"
+msgstr "Wysłano: <b>%1$s</b>"
+
+#: html/publish-meta-box.php:61
+msgid "Delete Permanently"
+msgstr "Usuń trwale"
+
+#: html/publish-meta-box.php:63
+msgid "Move to Trash"
+msgstr " Przenieś do kosza"
+
+#: html/publish-meta-box.php:75
+msgid "Update"
+msgstr " Zaktualizuj"
+
+#: html/publish-meta-box.php:76
+msgid "OK"
+msgstr " OK"
+
+#: html/powered-by.php:2
+msgid "Powered by"
+msgstr " Przełącz wiadomość  'wykonane przez'"
+
+#. #-#-#-#-#  plugin.pot (Usernoise 0.4)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  plugin.pot (Usernoise 0.4)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "mailto: hello@karevn.com"
+msgstr "mailto: hello@karevn.com"
+
+#. Description of the plugin/theme
+msgid "Usernoise is a modal contact / feedback form with flexible interface."
+msgstr "Usernoise jest modalnym oknem formularza kontaktu/opinii z elastycznym interfejsem."
+
+#. Author of the plugin/theme
+msgid "Nikolay Karev"
+msgstr "Nikolay Karev"
+
